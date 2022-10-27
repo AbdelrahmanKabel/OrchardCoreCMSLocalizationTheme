@@ -57,8 +57,8 @@
             </div>
         </div>
     </nav>
-    Helllo
-    @await RenderSectionAsync("Header", required: false)
+    
+    @*@await RenderSectionAsync("Header", required: false)*@
     @await RenderSectionAsync("Testzone", required: false)
     <main role="main" class="container">
         @await RenderSectionAsync("Messages", required: false)
@@ -67,7 +67,7 @@
     @await RenderSectionAsync("Footer", required: false)
     <resources type="FootScript" />
 </body>
-<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+@*<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 <script>
 $(function() {
     console.log( "ready!" );
@@ -116,5 +116,5 @@ console.log(values);
         }
     });
 });
-</script>
+</script>*@
 </html>
